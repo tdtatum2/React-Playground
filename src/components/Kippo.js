@@ -46,7 +46,7 @@ function Kippo() {
 
   return (
     <section className="cards" id="color-palette">
-      <Row>
+      <Row className='px-5'> 
         <Col size={12} md={6} className='d-flex align-items-center'>
           <div className="project-text">
             <h2 className="title">Color Palette Card Animation</h2>

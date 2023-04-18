@@ -15,7 +15,7 @@ function Counter() {
 
     return (
         <section className="counter" id="counter">
-            <Row>
+            <Row className='px-5'>
                 <Col size={12} md={6} className='d-flex align-items-center'>
                     <div className="project-text">
                         <h2 className="title">React Counter</h2>

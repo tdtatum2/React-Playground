@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Row, Col } from 'react-bootstrap';
 
 function Name() {
@@ -33,16 +33,15 @@ function Name() {
 
   return (
     <section id="tip-calculator">
-      <Row>
+      <Row className='px-5'>
         <Col size={12} md={6} className='d-flex align-items-center'>
           <div className="project-text">
             <h2 className="title">Tip Calculator</h2>
             <h5 className="inspiration">
-              Inspired by <em></em> by
+              Inspired by <em>Tip Calculator App</em> by FrontEndMentor.io
             </h5>
             <p className="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem porro 
-                explicabo consequatur libero neque repellendus fuga, natus perferendis earum excepturi.
+                I initially saw this challenge in the thumbnail of a video created by Web Dev Cody. I decided to give it a shot and apply my own styles and solutions to the problem at hand.
             </p>
           </div>
         </Col>
